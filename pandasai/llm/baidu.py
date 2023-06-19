@@ -10,8 +10,6 @@ from .base import LLM
 class BaiduErnieBot(LLM):
     """Baidu Ernie Bot LLM."""
 
-    model: str = "models/text-bison-001"
-
     def __init__(self, api_key: str, **kwargs):
         """Initialize Baidu Ernie Bot LLM connection."""
 
